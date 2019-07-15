@@ -21,7 +21,6 @@ class Hello extends React.Component {
     }
 }
 
-import React from 'react';
 
 class Hello extends React.Component {
     render() {
@@ -33,7 +32,6 @@ class Hello extends React.Component {
     }
 }
 
-import React from 'react';
 
 class Hello extends React.Component {
     render() {
@@ -46,8 +44,6 @@ class Hello extends React.Component {
     }
 }
 
-import React from 'react';
-
 class Foo extends React.Component {
     render() {
         return (
@@ -57,9 +53,6 @@ class Foo extends React.Component {
         );
     }
 }
-
-// Example 1
-import React from 'react';
 
 class Hello extends React.Component {
     render() {
@@ -77,7 +70,6 @@ class Hello2 extends React.Component {
     }
 }
 
-import React from 'react';
 
 class Hello extends React.Component {
     getTextStyle() {
@@ -117,7 +109,6 @@ React.createClass({
     }
 });
 
-import React from 'react';
 
 class SayHello extends React.Component {
     constructor(props) {
@@ -129,8 +120,6 @@ class SayHello extends React.Component {
         return <div>{this.state.name}</div>;
     }
 }
-
-import React from 'react';
 
 class SayHello extends React.Component {
     constructor(props) {
@@ -148,7 +137,6 @@ class SayHello extends React.Component {
     }
 }
 
-import React from 'react';
 
 class Hello extends React.Component {
     constructor(props) {
@@ -169,7 +157,6 @@ class Hello extends React.Component {
     }
 }
 
-import React from 'react';
 
 class Hello extends React.Component {
     render() {
@@ -183,7 +170,6 @@ class Hello extends React.Component {
     }
 }
 
-import React from 'react';
 import PropTypes from 'prop-types';
 
 class Hello extends React.Component {
@@ -200,9 +186,6 @@ class Hello extends React.Component {
 Hello.PropTypes = { // REACT_API_TYPO alarm because `propTypes` is a correct name of the component's class.
     greetName: PropTypes.string
 };
-
-import React from 'react';
-import PropTypes from 'prop-types';
 
 class Hello extends React.Component {
     render() {
