@@ -60,7 +60,7 @@
     }
 
     function CWE_670(x) { // STRAY_SEMICOLON
-        while (++x <= 100) ;
+        while (++x <= 10) ;
         {
             sum += x;
         }
