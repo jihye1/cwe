@@ -6,7 +6,7 @@ function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     }
 }
 
-function CWE_563(url) { // UNUSED_VAR_ASSIGN
+function CWE_563_2(url) { // UNUSED_VAR_ASSIGN
     var foo = url + "?query=deepscan";
     foo = url.replace(/\s/gi, "");
     console.log(foo);
