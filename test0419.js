@@ -10,3 +10,10 @@ function CWE_476() { // NULL_POINTER
     var y = obj.x;  // UNINITIALIZED_LOCAL_VAR
     console.log(y);
 }
+
+function CWE_480() { // BAD_BITWISE_OPERATOR
+    var obj = null;
+    if (obj & obj.prop) {
+        console.log(obj.prop);
+    }
+}
