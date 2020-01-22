@@ -6,6 +6,12 @@ function CWE_129(x) { // ARRAY_INDEX_NEGATIVE
     }
 }
 
+function CWE_563(url) { // UNUSED_VAR_ASSIGN
+    var foo = url + "?query=deepscan";
+    foo = url.replace(/\s/gi, "");
+    console.log(foo);
+}
+
     function CWE_398() { // IDENTICAL_BRANCHES
         if (x >= 0) {
             y = x;
