@@ -17,3 +17,6 @@ function CWE_480() { // BAD_BITWISE_OPERATOR
         console.log(obj.prop);
     }
 }
+
+const a = 12;
+a = 3;
