@@ -77,3 +77,7 @@ function CWE_563_2(url) { // UNUSED_VAR_ASSIGN
             sum += x;
         }
     }
+
+    function CWE_482_665() { // UNUSED_EXPR
+        this.foo;
+    }
