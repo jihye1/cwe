@@ -14,9 +14,9 @@ function CWE_563_2(url) { // UNUSED_VAR_ASSIGN
 
     function CWE_398() { // IDENTICAL_BRANCHES
         if (x >= 0) {
-            y = x;
+            y = e;
         } else {
-            y = x;
+            y = e;
         }
     }
 
@@ -76,8 +76,4 @@ function CWE_563_2(url) { // UNUSED_VAR_ASSIGN
         {
             sum += x;
         }
-    }
-
-    function CWE_482_665() { // UNUSED_EXPR
-        this.foo;
     }
