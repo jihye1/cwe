@@ -3,6 +3,24 @@
 import { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import { createRoot } from 'react-dom/client';
+
+function* hello() {
+  yield <div key="Hello">Hello</div>;
+  yield <div key="There">There</div>;
+}
+
+function App() {
+  return (
+    <div>
+      {hello()} {/* REACT_BAD_CHILD_GENERATOR alarm */}
+    </div>
+  );
+}
+
+const root = createRoot(document.getElementById('root'));
+root.render(<App />);
+            
 export class ReactApiTypo extends Component {
   check() {
   }
