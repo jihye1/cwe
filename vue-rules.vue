@@ -2,11 +2,15 @@
 
 <script>
 export default {
+  data() {
+    return { msg: '' };
+  },
   methods: {
     update() {}
   },
   mounted() {
     window.addEventListener('hashchange', this.update, false);
+    this.$data = { msg: 'hi' }; // VUE_ASSIGN_TO_READONLY_PROPERTY alarm because 'this.$data' is read-only.
   },
   beforeDestroy() {
     window.removeEventListener('hashChange', this.update, false);
